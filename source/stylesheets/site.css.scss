@@ -19,23 +19,23 @@ $ctaButton-radius: 30px !default;
     margin-bottom: 10px;
 
     .title {
-        // background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,0.6);
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
         letter-spacing: 1px;
-        color: #ffffff;
+        color: $body-font-color;
         .big {
-            font-size: 4vw;
+            font-size: 5vw;
             text-transform: none;
-            font-weight: 400;
+            font-weight: 700;
             font-style: normal;
         }
 
         .medium {
             font-size: 3vw;
             text-transform: none;
-            font-weight: 100;
+            font-weight: 200;
             font-style: normal;
 
             .medium {

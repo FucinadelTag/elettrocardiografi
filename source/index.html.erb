@@ -1,31 +1,409 @@
 ---
-title: Welcome to Middleman
+title: >
+        Elettrocardiografo Philips
+
+description: >
+        Da inserire
+
+testata:
+    prima_riga: ECG Portatile Philips
+    seconda_riga: >
+
+            Facile - Integrato - Professionale<br>
+            <span class="medium"><i>Modello PageWriter T10</i></span>
+
+immagineTestata: https://prismic-io.s3.amazonaws.com/elettrocardiografi/84e542da33c2a7cf6e5fc0aaf28775c3d3c3bffb__cox8816.png
+
+headCode: >
+
+conversionCode: >
+                    <!-- MOMENT -->
+                    <script src="https://s3-eu-west-1.amazonaws.com/cdn.fucinadeltag.it/moment.js"></script>
+                    <script type="text/javascript">
+                        moment.locale('it');
+                        var lastDayOfMonth = moment().endOf('month').format("D\ MMMM YYYY");
+                        $(".dataPromo").html(lastDayOfMonth);
+                    </script>
+                    <!-- /MOMENT -->
 ---
 
+<%= partial "partials/promo_section" %>
+
+<%= partial "partials/rowCallToAction" %>
+
+<hr>
+
 <div class="row">
-    <div class="top-bar">
-        <div class="top-bar-left">
-            <ul class="menu">
-                <li class="menu-text"><a href="/"><img src="http://meditronsrl.it/App_Images/Logo_1.png"></a></li>
-            </ul>
-        </div>
+    <div class="small-12 columns">
+        <h2><i class="fa fa-heart-o" aria-hidden="true"></i> Facile da Usare</h2>
     </div>
 </div>
 
-<section class="title-container show-for-medium" style="background:  #0075ba; background-size: cover;">
-    <div class="row clearfix">
-        <div class="column">
-            <img src="http://images.philips.com/is/image/PhilipsConsumer/HC860306-IMS-it_IT?wid=435&hei=245&$pnglarge$">
-        </div>
-        <div class="title column small-8">
-            <h1 class="big">
-                ECG PageWriter TC10
-            </h1>
-            <span class="medium">
-                ciao
-            </span>
+<div class="row">
+    <div class="small-12 columns callout">
 
+        <div class="row small-up-1 medium-up-2">
+
+            <div class="column">
+
+                <h4>Display Touchscreen</h4>
+
+                <ul class="subheader">
+                    <li>
+                        7 Pollici
+                    </li>
+                    <li>
+                        Risoluzione 800x480
+                    </li>
+                </ul>
+
+            </div>
+            <div class="column">
+
+                <h4>Sequenza operativa guidata</h4>
+
+                <p class="subheader">
+                    Tramite l'ausilio di 3 semplici tasti premette a chiunque di effertuare correttamente un ECG
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Cavo paziente lungo</h4>
+
+                <p class="subheader">
+                    I fili di derivazione lunghi permettono una maggiore comodità d utilizzo.
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Stampante Integrata</h4>
+
+                <p class="subheader">
+                    Stampante digitale ad alta risoluzionecon carta termica: 200 dpi.
+                </p>
+
+            </div>
+            <div class="column">
+
+                <h4>Indicatori di Qualità immediati</h4>
+
+                <ul class="subheader">
+                    <li>
+                        Avviso di derivazioni staccate
+                    </li>
+                    <li>
+                        Quattro colori per indicare la qualità delle singole derivazioni
+                    </li>
+                    <li>
+                        Software per evidenziare il corretto posizionamento delle derivazioni
+                    </li>
+                    <li>
+                        Visualizzazione continua della frequenza cardiaca
+                    </li>
+                    <li>
+                        Anteprima a schermo intero delle forme d'onda ECG
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Diagnosi in tempo reale</h4>
+
+                <ul class="subheader">
+                    <li>
+                        Due referti ECG con mappe ST polari - Piani frontale e trasversale
+                    </li>
+                    <li>
+                        Criteri per sesso ed età basati sulle raccomandazioni <i>2009 AHA/ACCF/HRS, Parte VI: ischemia e infarto</i>
+                    </li>
+                    <li>
+                        Criteri che suggeriscono uno dei quattro probabili punti di occlusione dell'arteria coronaria
+                    </li>
+                    <li>
+                        indicazione di 4 condizioni che richiedono assistenza clinica immediata
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<p></p>
+<div class="row">
+
+    <img src="https://prismic-io.s3.amazonaws.com/elettrocardiografi/3003500ba9e1d97b1558b13a62e4f44b94dc45d8__cox8750.png">
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h2><i class="fa fa-heart-o" aria-hidden="true"></i> Integrato</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns callout">
+
+        <div class="row small-up-1 medium-up-2">
+
+            <div class="column">
+
+                <h4>Liste di lavoro e delle richieste</h4>
+
+                <p class="subheader">
+                    Download delle liste di lavoro e delle richieste da server in rete tramite standard: <i>XML, HL7 e DICOM</i>
+                </p>
+
+            </div>
+            <div class="column">
+
+                <h4>ADT - Ammissione, Dismissione e Trasferimento</h4>
+
+                <ul class="subheader">
+                    <li>
+                        Interrogazione e recupero dati anagrafici del paziente
+                    </li>
+                    <li>
+                        Criteri di riceca immessi  manualmente o tramite scansione del codice a barre del paziente
+                    </li>
+                    <li>
+                        Supporto dellinterfaccia HL7
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Recupero Ultimo ECG</h4>
+
+                <p class="subheader">
+                    Recupero automatico dell'ECG precedente o dell'intera lista degli ECG disponibili per il paziente
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Inserimento e gestione manuale dei dati</h4>
+
+                <p class="subheader">
+                    E' sempre possibile gestire liste di lavoro e anagrafiche direttamente dal dispositivo e recuperarne successivamente i dati
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Connettività</h4>
+
+                <ul class="subheader">
+                    <li>
+                        Rete LAN wireless (802.22 a/b/g)
+                    </li>
+                    <li>
+                        Memoria interna per contenere 200 ECG
+                    </li>
+                    <li>
+                        Memoria esterna per contenere 200 ECG condispositivo USB opzionale
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column">
+
+                <h4>Ingresso dati Automatico</h4>
+
+                <ul class="subheader">
+                    <li>
+                        Lettore di codici a barre (H12) - Simboli dei codice a barre ID: Code 39
+                    </li>
+                    <li>
+                        Lettore di codice a barre 2D: Codice QR
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<p></p>
+<%= partial "partials/rowCallToAction" %>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h2><i class="fa fa-heart-o" aria-hidden="true"></i> Professionale</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns callout">
+
+        <div class="row small-up-1 medium-up-2">
+
+            <div class="column">
+
+                <h4>12 Derivazioni</h4>
+
+                <p class="subheader">
+                    Acquisizione sumultanea di 12 derivazioni
+                </p>
+
+            </div>
+            <div class="column">
+
+                <h4>Referti ECG tramite stampante integrata</h4>
+
+                <p class="subheader">
+                    Formati Standard e Cabrea, più Pan 12 Cabrea
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Misurazioni Standard</h4>
+
+                <p class="subheader">
+                    Dieci misurazioni di intervalli, durata e assi.
+                    <br>Metodo di correzione QT configurabile
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Tracciati del Ritmo</h4>
+
+                <p class="subheader">
+                    Fino a 6 derivazioni configurabili
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Riesame completo</h4>
+
+                <p class="subheader">
+                    Registrazione di 5 minuti di tutte le 12 derivazioni.
+                    <br>Referto ECG completo riferito a 10 secondi di tracciato a scelta
+                </p>
+
+            </div>
+            <div class="column">
+
+                <h4>Marcatura degli eventi</h4>
+
+                <p class="subheader">
+                    Possibilità di contrassegnare 6 eventi indipendenti per l'analisi e il riesame successivi.
+                    <br>I marcatori di eventi vengono visualizzati dui referti ECG
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>ECG Temporizzato</h4>
+
+                <p class="subheader">
+                    Supporto dei protocolli per lo stress farmacologico
+                </p>
+
+            </div>
+
+            <div class="column">
+
+                <h4>Massima Fedeltà di memorizzazione</h4>
+
+                <p class="subheader">
+                    Massima fedeltè di memorizzazione e trasferimento dei referti: 500 Hz per i tracciati di 10 secondi riferiti a tutt le 12 derivazioni
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<p></p>
+
+<div class="row">
+    <div class="column medium-8 callout">
+        <div class="row">
+            <div class="column small-12">
+                <h3>Esclusivo Algoritmo interpretativo PHILIPS DXL</h3>
+                <p>
+                    <img style="float: left;" src="http://images.philips.com/is/image/PhilipsConsumer/HCNOCTN68-IMS-en_US?wid=150&$pnglarge$"> L'algoritmo Philips DXL per ECG a 12 derivazioni offre <strong>funzioni di interpretazione dell'ECG all'avanguardia</strong> e una gamma di strumenti di <strong>supporto decisionale STEMI</strong> per l'analisi del ritmo e della morfologia di varie popolazioni di pazienti.
+                </p>
+
+                <p>Le caratteristiche dell'algoritmo:</p>
+
+                <ul class="subheader">
+
+                    <li>
+                        Più di 600 Dichiarazioni interpretative
+                    </li>
+                    <li>
+                        Analisi pediatrica integrata
+                    </li>
+                    <li>
+                        Soppressione delle dichiarazioni al limite di norma attraverso 3 impostazioni configurabili
+                    </li>
+                    <li>
+                        46 Misurazioni di analisi morfologiche in ciascuna delle 12 derivazioni
+                    </li>
+                    <li>
+                        21 parametri di analisi del ritmo
+                    </li>
+                    <li>
+                        Possibilità di selesionare le spiegazioni di tutte le dichiarazioni interpretative
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="column small-12">
+                <h3>Leggero sempre pronto</h3>
+                <ul class="subheader">
+                    <li>
+                        Batteria ricaricabile
+                    </li>
+                    <li>
+                        Fino a 300 referti con una ricarica
+                    </li>
+                    <li>
+                        Ricarica completa in 4 ore
+                    </li>
+                    <li>
+                        Alimentazione 100-240 VCA - Potenza assorbita Max 60W
+                    </li>
+                    <li>
+                        Dimensioni: <i>65 x 338 x 240 mm</i>
+                    </li>
+                    <li>
+                        Peso: <i>2,5 kg</i> (batteria inclusa)
+                    </li>
+                </ul>
+
+            </div>
 
         </div>
     </div>
-</section>
+
+    <div class="column">
+        <img src="https://prismic-io.s3.amazonaws.com/elettrocardiografi/24d5cd0faf905936934a5b486b6fb114867183c4__cox8684.png">
+    </div>
+
+
+</div>
+
+
+<p></p>
+<%= partial "partials/rowCallToAction" %>
