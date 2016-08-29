@@ -49,6 +49,35 @@
 
     </script>
 
+        <script type="text/javascript">
+            var _iub = _iub || [];
+            _iub.csConfiguration = {
+                cookiePolicyId: 7902785,
+                siteId: 600102,
+                lang: "it",
+                priorConsent: false,
+                banner: {
+                    slideDown: false,
+                    applyStyles: false,
+                    fontSize: "11px",
+                    textColor: "#ffffff",
+                    backgroundColor: '#9a9a9a',
+                    content: "<p>Questo sito si avvale di cookie necessari al suo funzionamento. Se vuoi saperne di pi&ugrave; consulta la %{cookie_policy_link}.<br />Chiudendo questo banner acconsenti all’uso dei cookie.</p>"
+                }
+            };
+        </script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js" charset="UTF-8" async></script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-19846103-35', 'auto');
+            ga('send', 'pageview');
+        </script>
+
   </head>
 
     <body class="<%= page_classes %>">
@@ -57,7 +86,7 @@
             <div class="top-bar">
                 <div class="top-bar-left">
                     <ul class="menu">
-                        <li class="menu-text"><a href="/"><img src="https://prismic-io.s3.amazonaws.com/elettrocardiografi/260bd32d98558be21b5c3dad90103f23190b18a1_logo_meditron.png"></a></li>
+                        <!-- <li class="menu-text"><a href="/"><img src="https://prismic-io.s3.amazonaws.com/elettrocardiografi/260bd32d98558be21b5c3dad90103f23190b18a1_logo_meditron.png"></a></li> -->
                     </ul>
                 </div>
             </div>
@@ -122,6 +151,9 @@
         <% if current_page.data.conversionCode  %>
             <%= current_page.data.conversionCode %>
         <% end %>
+
+
+
 
     </body>
 </html>
